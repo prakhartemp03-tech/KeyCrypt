@@ -22,6 +22,17 @@ A cryptographic Wordle game where players decrypt 5-letter words encrypted with 
 8. **DES Cipher** (Expert) - Block cipher standard
 9. **RSA Cipher** (Expert) - Asymmetric public-key encryption
 
+## Quick Demo (Frontend Only)
+
+The app includes a **demo mode** that works without any backend setup! Simply:
+
+1. Navigate to the project root
+2. Run `npm run dev`
+3. Open `http://localhost:3000`
+4. Play the demo version with sample encrypted words
+
+The demo mode will automatically activate when the backend is not available, allowing you to test the full UI and gameplay flow.
+
 ## Setup Instructions
 
 ### Backend Setup
