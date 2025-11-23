@@ -1,4 +1,5 @@
 import requests
+import random
 from config import Config
 
 class WordService:
