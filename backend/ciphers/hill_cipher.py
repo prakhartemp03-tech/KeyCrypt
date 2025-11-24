@@ -1,5 +1,5 @@
 import numpy as np
-from ..utils.math_utils import generate_invertible_matrix
+from utils.math_utils import generate_invertible_matrix
 from .base_cipher import BaseCipher
 
 class HillCipher(BaseCipher):
